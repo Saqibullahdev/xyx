@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Guide</title>
+    <link rel="stylesheet" href="nutrition.css">
+    <style>
+        /* nutrition.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+.intro-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.meal-plans {
+    padding: 20px;
+}
+
+.meal-plan {
+    margin-bottom: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.meal-plan h3 {
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+.meal-plan p {
+    font-size: 1em;
+}
+
+.meal-plan ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.meal-plan img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.healthy-habits {
+    background: #e9ecef;
+    padding: 20px;
+}
+
+.habits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.habits article {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 30%;
+    min-width: 250px;
+}
+
+.habits h3 {
+    font-size: 1.5em;
+}
+
+.habits img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipes {
+    padding: 20px;
+}
+
+.recipe {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.recipe h3 {
+    font-size: 1.8em;
+    color: #28a745;
+}
+
+.recipe ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workout Routines</a></li>
+                <li><a href="nutrition.html">Nutrition Guide</a></li>
+                <li><a href="photos.html">Photo Galleries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Nutrition Guide</h1>
+        <p>Fuel your body with the right nutrients to support your fitness journey. Explore meal plans, healthy recipes, and tips for balanced eating.</p>
+        <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Healthy food spread" class="intro-img">
+    </section>
+
+    <section class="meal-plans">
+        <h2>Meal Plans</h2>
+        <article class="meal-plan">
+            <h3>Balanced Diet Plan</h3>
+            <p>This meal plan is designed to provide a balance of protein, carbohydrates, and healthy fats. Perfect for maintaining energy levels throughout the day.</p>
+            <ul>
+                <li>Breakfast: Oatmeal with berries and nuts</li>
+                <li>Lunch: Grilled chicken salad with quinoa</li>
+                <li>Snack: Greek yogurt with honey</li>
+                <li>Dinner: Baked salmon with roasted vegetables</li>
+            </ul>
+            <img src="https://plus.unsplash.com/premium_photo-1664206139540-d0f847dd8452?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Balanced diet plate">
+        </article>
+
+        <article class="meal-plan">
+            <h3>High-Protein Diet Plan</h3>
+            <p>Ideal for muscle building, this high-protein diet includes meals rich in protein sources to support muscle recovery and growth.</p>
+            <ul>
+                <li>Breakfast: Protein smoothie with banana and almond butter</li>
+                <li>Lunch: Turkey wrap with veggies</li>
+                <li>Snack: Cottage cheese with cucumber slices</li>
+                <li>Dinner: Grilled steak with steamed broccoli</li>
+            </ul>
+            <img src="https://plus.unsplash.com/premium_photo-1723377627996-1003fa5152cb?q=80&w=1842&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="High protein meal">
+        </article>
+    </section>
+
+    <section class="healthy-habits">
+        <h2>Healthy Eating Habits</h2>
+        <div class="habits">
+            <article>
+                <h3>Stay Hydrated</h3>
+                <p>Water is essential for every function in the body. Aim to drink at least 8 glasses of water a day to stay hydrated and energized.</p>
+                <img src="https://plus.unsplash.com/premium_photo-1665203632873-0f845413fcf1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Glass of water">
+            </article>
+            <article>
+                <h3>Eat a Rainbow</h3>
+                <p>Include colorful fruits and vegetables in your diet to ensure you're getting a variety of vitamins and minerals.</p>
+                <img src="https://images.unsplash.com/photo-1535914254981-b5012eebbd15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Colorful vegetables">
+            </article>
+            <article>
+                <h3>Limit Processed Foods</h3>
+                <p>Processed foods often contain added sugars, unhealthy fats, and chemicals. Opt for whole foods whenever possible.</p>
+                <img src="https://plus.unsplash.com/premium_photo-1707242995113-a2ae3c30d29d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Whole foods">
+            </article>
+        </div>
+    </section>
+
+    <section class="recipes">
+        <h2>Healthy Recipes</h2>
+        <article class="recipe">
+            <h3>Quinoa Salad</h3>
+            <p>A light and nutritious salad, packed with protein and fiber to keep you full and energized.</p>
+            <ul>
+                <li>Ingredients: Quinoa, cucumber, cherry tomatoes, feta cheese, olive oil</li>
+                <li>Instructions: Cook quinoa, chop vegetables, mix, and serve with olive oil and lemon dressing.</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quinoa salad">
+        </article>
+        
+        <article class="recipe">
+            <h3>Avocado Toast</h3>
+            <p>Simple, delicious, and packed with healthy fats. Perfect for a quick breakfast or snack.</p>
+            <ul>
+                <li>Ingredients: Whole-grain bread, avocado, salt, pepper, red chili flakes</li>
+                <li>Instructions: Toast bread, mash avocado, spread, and season with salt, pepper, and chili flakes.</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1676471970358-1cff04452e7b?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Avocado toast">
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness and Wellness. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

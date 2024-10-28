@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Routines</title>
+    <link rel="stylesheet" href="workouts.css">
+    <style>
+        /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e0f7fa;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.intro-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Featured Workout Section */
+.featured-workout {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.featured-workout h2 {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 1rem;
+}
+
+.featured-workout h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.featured-workout ul {
+    list-style: none;
+    padding: 0;
+}
+
+.featured-workout li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.featured-workout img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* Workout Categories Section */
+.workout-categories {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.workout-categories h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.workout-category {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.workout-category h3 {
+    font-size: 1.8rem;
+    color: #ff6347;
+    flex: 1 1 100%;
+}
+
+.workout-category p {
+    font-size: 1rem;
+    color: #555;
+    flex: 1 1 60%;
+    padding-right: 1rem;
+}
+
+.workout-category ul {
+    list-style: none;
+    flex: 1 1 60%;
+}
+
+.workout-category li {
+    font-size: 1rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.workout-category img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    flex: 1 1 30%;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.pagination a {
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workout Routines</a></li>
+                <li><a href="nutrition.html">Nutrition Guide</a></li>
+                <li><a href="photos.html">Photo Galleries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Explore Our Workout Routines</h1>
+        <p>Whether you're a beginner or an advanced athlete, find workout routines that match your fitness level and help you achieve your goals. Explore, get inspired, and stay fit!</p>
+        <img src="https://plus.unsplash.com/premium_photo-1670505062582-fdaa83c23c9e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Workout banner image" class="intro-img">
+    </section>
+
+    <section class="featured-workout">
+        <h2>Featured Workout of the Week</h2>
+        <h3>Full-Body Strength Training</h3>
+        <p>Strengthen your entire body with this powerful routine that combines strength, endurance, and flexibility. Ideal for intermediate to advanced levels.</p>
+        <ul>
+            <li>Squats - 3 sets of 15 reps</li>
+            <li>Push-ups - 3 sets of 12 reps</li>
+            <li>Deadlifts - 3 sets of 10 reps</li>
+            <li>Plank - 3 sets of 45 seconds</li>
+        </ul>
+        <img src="https://images.unsplash.com/photo-1607962837359-5e7e89f86776?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured workout image">
+    </section>
+
+    <section class="workout-categories">
+        <h2>Workout Categories</h2>
+        
+        <div class="workout-category">
+            <h3>Cardio Workouts</h3>
+            <p>Boost your endurance with cardio routines designed to improve heart health and stamina.</p>
+            <ul>
+                <li>High-Intensity Interval Training (HIIT) - 20 mins</li>
+                <li>Running - 5 km</li>
+                <li>Jump Rope - 15 mins</li>
+            </ul>
+            <img src="https://plus.unsplash.com/premium_photo-1661595192663-71f7c5ae1b13?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cardio workout image">
+        </div>
+
+        <div class="workout-category">
+            <h3>Strength Workouts</h3>
+            <p>Build muscle and improve strength with routines focused on resistance and weight training.</p>
+            <ul>
+                <li>Bench Press - 4 sets of 10 reps</li>
+                <li>Bicep Curls - 3 sets of 15 reps</li>
+                <li>Leg Press - 4 sets of 12 reps</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Strength workout image">
+        </div>
+
+        <div class="workout-category">
+            <h3>Flexibility Workouts</h3>
+            <p>Increase flexibility and range of motion with stretches and yoga-inspired movements.</p>
+            <ul>
+                <li>Hamstring Stretch - 2 mins each leg</li>
+                <li>Downward Dog - 3 sets of 1 min</li>
+                <li>Spinal Twist - 2 mins each side</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flexibility workout image">
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2024 Fitness & Wellness | <a href="contact.html">Contact Us</a> | Follow us on social media</p>
+    </footer>
+</body>
+</html>

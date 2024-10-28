@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness & Wellness</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #282c34;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #61dafb;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('images/fitness-hero.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.about-us img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Featured Tip Section */
+.featured-tip {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #eef2f5;
+}
+
+.featured-tip h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.featured-tip p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.featured-tip img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Site Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.feature {
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    color: #282c34;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workout Routines</a></li>
+                <li><a href="nutrition.html">Nutrition Guide</a></li>
+                <li><a href="photos.html">Photo Galleries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 style="color: black;">Welcome to Your Fitness Journey</h1>
+        <p style="color: black;">Discover personalized workout plans and expert nutritional advice to reach your wellness goals.</p>
+        <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fitness and Wellness" class="hero-img">
+    </section>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>Our mission is to empower individuals to live healthier, more active lives. With customized fitness plans, nutritional guidance, and a supportive community, we’re here to help you every step of the way.</p>
+        <img src="https://images.unsplash.com/photo-1514994667787-b48ca37155f0?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About Us Image">
+    </section>
+
+    <section class="featured-tip">
+        <h2>Featured Workout Tip</h2>
+        <p><strong>Tip of the Day:</strong> Start your day with a 5-minute dynamic warm-up to improve flexibility and boost your energy levels.</p>
+        <img src="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Workout Tip Image">
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <img src="https://plus.unsplash.com/premium_photo-1663133499450-04838ab6788a?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Workout Plans">
+            <h3>Customized Workout Plans</h3>
+            <p>Access workout plans tailored to your fitness level and goals.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nutrition Guide">
+            <h3>Nutrition Guides</h3>
+            <p>Find meal plans and recipes to fuel your body for success.</p>
+        </div>
+        <div class="feature">
+            <img src="https://plus.unsplash.com/premium_photo-1681505195930-388c317b7a76?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Community Support">
+            <h3>Community Support</h3>
+            <p>Join a community of like-minded individuals on their wellness journey.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness & Wellness | <a href="contact.html">Contact Us</a> | Follow us on social media</p>
+    </footer>
+</body>
+</html>
